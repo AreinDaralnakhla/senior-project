@@ -8685,12 +8685,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlidersController_Update_mF36E0EF0199204
 		float L_8;
 		L_8 = VirtualFuncInvoker0< float >::Invoke(46 /* System.Single UnityEngine.UI.Slider::get_value() */, L_7);
 		__this->___angleSliderNumber_6 = L_8;
-		// rotationQuaternion.eulerAngles = new Vector3(0, angleSliderNumber - 90f, 0);
+		// rotationQuaternion.eulerAngles = new Vector3(0, angleSliderNumber, 0);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_9 = (&__this->___rotationQuaternion_9);
 		float L_10 = __this->___angleSliderNumber_6;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
 		memset((&L_11), 0, sizeof(L_11));
-		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_11), (0.0f), ((float)il2cpp_codegen_subtract(L_10, (90.0f))), (0.0f), /*hidden argument*/NULL);
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_11), (0.0f), L_10, (0.0f), /*hidden argument*/NULL);
 		Quaternion_set_eulerAngles_m441C342F21FEFCED9BABED01FA516C97EA424D6E_inline(L_9, L_11, NULL);
 		// transformCache.rotation = rotationQuaternion;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12 = __this->___transformCache_8;
