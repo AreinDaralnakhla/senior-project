@@ -1337,7 +1337,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &963194227
 Camera:
   m_ObjectHideFlags: 0
@@ -2321,6 +2321,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   greyMaterial: {fileID: 2100000, guid: 682972eabf16142548707058fd2ac0de, type: 2}
+  diagramImage: {fileID: 1703431003}
+  allSprite: {fileID: 21300000, guid: c080478c270c7ed49bc1871379a1e311, type: 3}
+  pmosSprite: {fileID: 21300000, guid: 635ab8be492c05e4dbbe7a7ae78230cd, type: 3}
+  nmosSprite: {fileID: 21300000, guid: c2721147a06a8084bb56976e039d8162, type: 3}
+  outputSprite: {fileID: 21300000, guid: 43143563baceffc4b89a4036740afad2, type: 3}
+  inputSprite: {fileID: 21300000, guid: 7499dc494788c844e87d85d09c515e52, type: 3}
+  vddSprite: {fileID: 21300000, guid: a91514d23a33a21438b51c6e17cfd647, type: 3}
+  gndSprite: {fileID: 21300000, guid: d599d63dc97301e43aac210209300972, type: 3}
 --- !u!1 &1467209234
 GameObject:
   m_ObjectHideFlags: 0
@@ -3197,19 +3205,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1932224224}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1569925406}
-        m_TargetAssemblyTypeName: StickDiagramController, Assembly-CSharp
-        m_MethodName: onPress
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1932224224
 MonoBehaviour:
   m_ObjectHideFlags: 0
