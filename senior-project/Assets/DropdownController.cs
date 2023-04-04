@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class DropdownController : MonoBehaviour
@@ -28,6 +29,15 @@ public class DropdownController : MonoBehaviour
     private GameObject[] inputObjs;
     private GameObject[] VDDObjs;
     private GameObject[] GNDObjs;
+    
+    [SerializeField] private Image diagramImage;
+    [SerializeField] private Sprite allSprite;
+    [SerializeField] private Sprite pmosSprite;
+    [SerializeField] private Sprite nmosSprite;
+    [SerializeField] private Sprite outputSprite;
+    [SerializeField] private Sprite inputSprite;
+    [SerializeField] private Sprite vddSprite;
+    [SerializeField] private Sprite gndSprite;
 
     private int i = 0;
 
@@ -236,6 +246,25 @@ public class DropdownController : MonoBehaviour
         }
         if(tag == "none") {
             unGreyColors();
+            diagramImage.sprite = allSprite;
+        }
+        if(tag == "pmos") {
+            diagramImage.sprite = pmosSprite;
+        }
+        if(tag == "nmos") {
+            diagramImage.sprite = nmosSprite;
+        }
+        if(tag == "output") {
+            diagramImage.sprite = outputSprite;
+        }
+        if(tag == "input") {
+            diagramImage.sprite = inputSprite;
+        }
+        if(tag == "vdd") {
+            diagramImage.sprite = vddSprite;
+        }
+        if(tag == "gnd") {
+            diagramImage.sprite = gndSprite;
         }
     }
 
