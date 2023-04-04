@@ -102,7 +102,6 @@
 		51FE44E8BE7A7B565BF07BBB /* UnityEngine.IMGUIModule1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A23413A842C77FFF6B187F4 /* UnityEngine.IMGUIModule1.cpp */; };
 		5204409F84F07F1D2B39768C /* UnityPurchasing.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F03495D939A3EB4D8EBC08C /* UnityPurchasing.h */; };
 		52BD49619B4A98AF5A5F13AA /* UnityAdsNativeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5A4DE6A9B85983ADA930EE /* UnityAdsNativeObject.m */; };
-		5546448084BAEB2AF7378B55 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2143C1B71DA460FBAE96BA /* StoreKit.framework */; };
 		55464687AA0456C5D8D87228 /* UnityEngine.UIElementsModule6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93FC4189B1241CAE80CCDF33 /* UnityEngine.UIElementsModule6.cpp */; };
 		55914394BC96212166310539 /* mscorlib10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D4093A1D7A4D4B6FD7CF3 /* mscorlib10.cpp */; };
 		5623C57617FDCB0800090B9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -297,7 +296,6 @@
 		C1074839BAA04A0A7E6550B2 /* mscorlib3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23564D508744F061A0056B87 /* mscorlib3.cpp */; };
 		C26E4F1DAC1B8EDC562E6EF7 /* mscorlib8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124F496687FB9BCEE773AA88 /* mscorlib8.cpp */; };
 		C2784A33B4AB142114FED60E /* Unity.TextMeshPro1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E6E45A3A5BD3AF5ECBE3D07 /* Unity.TextMeshPro1.cpp */; };
-		C2BE403C83D7A1A3E68BC237 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2143C1B71DA460FBAE96BA /* StoreKit.framework */; };
 		C40A4BC9B682617AE04C0B41 /* Il2CppGenericMethodPointerTable.c in Sources */ = {isa = PBXBuildFile; fileRef = 9713492BAB3C14D47EE3FB64 /* Il2CppGenericMethodPointerTable.c */; };
 		C5204AB6BDE3B39562FC95C9 /* UnityEngine.UIElementsModule2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1660427397974C0B200C954D /* UnityEngine.UIElementsModule2.cpp */; };
 		C6B54B6989586A69B746042C /* GenericMethods7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C115409FB5F03F1585177AF8 /* GenericMethods7.cpp */; };
@@ -446,7 +444,6 @@
 		1C4B4CDEB53C4D78D06328A7 /* UnityEngine.AnimationModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.AnimationModule.cpp; path = Classes/Native/UnityEngine.AnimationModule.cpp; sourceTree = SOURCE_ROOT; };
 		1C854203AF20DD1A4890F2C8 /* Generics40.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics40.cpp; path = Classes/Native/Generics40.cpp; sourceTree = SOURCE_ROOT; };
 		1D1C4FE490BF37CC425145B1 /* Generics47.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics47.cpp; path = Classes/Native/Generics47.cpp; sourceTree = SOURCE_ROOT; };
-		1D2143C1B71DA460FBAE96BA /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		1D2543A28CE99B06BFFA096E /* LaunchScreen-iPhonePortrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchScreen-iPhonePortrait.png"; sourceTree = SOURCE_ROOT; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* seniorproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = seniorproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -809,7 +806,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5546448084BAEB2AF7378B55 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -850,7 +846,6 @@
 				205B4450A559BFCD62DB7752 /* VuforiaEngine.framework in Frameworks */,
 				B7E14E20B510A68135216E1A /* UnityAds.framework in Frameworks */,
 				B45546848EDA523DC2B62E63 /* UnityDriver.framework in Frameworks */,
-				C2BE403C83D7A1A3E68BC237 /* StoreKit.framework in Frameworks */,
 				1E1246E69950C130D03354D3 /* AdSupport.framework in Frameworks */,
 				70964CC7843EEFDFE9F32BA2 /* CoreTelephony.framework in Frameworks */,
 				641443C18E4B6F3C302CBB2C /* GameController.framework in Frameworks */,
@@ -957,7 +952,6 @@
 				830B5C100E5ED4C100C7819F /* UIKit.framework */,
 				221A45BD9E2A1EA4101F6A69 /* com.ptc.vuforia.engine */,
 				D2A2466A9D0A4273A2713628 /* com.unity.ads */,
-				1D2143C1B71DA460FBAE96BA /* StoreKit.framework */,
 				43724E6FAC23B285E347653E /* AdSupport.framework */,
 				BFFB4866828D3E834F9090A5 /* CoreTelephony.framework */,
 				D4AF4B9EA5FAFB3A5834BC03 /* GameController.framework */,
@@ -2552,6 +2546,8 @@
 					"$(SRCROOT)/Libraries",
 					"$(SRCROOT)/Libraries",
 					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
 					"$(inherited)",
 					"$(SRCROOT)/Classes",
 					"$(SRCROOT)",
@@ -2585,6 +2581,8 @@
 					"-DUNITY_VERSION_MIN=8",
 				);
 				OTHER_LDFLAGS = (
+					"-lc++",
+					"-lc++",
 					"-lc++",
 					"-lc++",
 					"-lc++",
@@ -2640,6 +2638,8 @@
 					"$(SRCROOT)/Libraries",
 					"$(SRCROOT)/Libraries",
 					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
 					"$(inherited)",
 					"$(SRCROOT)/Classes",
 					"$(SRCROOT)",
@@ -2674,6 +2674,8 @@
 					"-DUNITY_VERSION_MIN=8",
 				);
 				OTHER_LDFLAGS = (
+					"-lc++",
+					"-lc++",
 					"-lc++",
 					"-lc++",
 					"-lc++",
@@ -2730,6 +2732,8 @@
 					"$(SRCROOT)/Libraries",
 					"$(SRCROOT)/Libraries",
 					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
 					"$(inherited)",
 					"$(SRCROOT)/Classes",
 					"$(SRCROOT)",
@@ -2764,6 +2768,8 @@
 					"-DUNITY_VERSION_MIN=8",
 				);
 				OTHER_LDFLAGS = (
+					"-lc++",
+					"-lc++",
 					"-lc++",
 					"-lc++",
 					"-lc++",
@@ -2821,6 +2827,8 @@
 					"$(SRCROOT)/Libraries",
 					"$(SRCROOT)/Libraries",
 					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
 					"$(inherited)",
 					"$(SRCROOT)/Classes",
 					"$(SRCROOT)",
@@ -2855,6 +2863,8 @@
 					"-DUNITY_VERSION_MIN=8",
 				);
 				OTHER_LDFLAGS = (
+					"-lc++",
+					"-lc++",
 					"-lc++",
 					"-lc++",
 					"-lc++",
