@@ -17,21 +17,21 @@ public class StickDiagramController : MonoBehaviour
         diagramButton.GetComponentInChildren<TMP_Text>().text = "Show Diagram";
         diagramButton.onClick.AddListener(onPress);
         stickDiagramImage = GameObject.Find("StickDiagramImage");
-        stickDiagramImage.SetActive(false);        
+        stickDiagramImage.SetActive(diagramVisable);        
     }
 
     public void onPress()
     {
+        Debug.Log(stickDiagramImage.activeSelf);
         if(!diagramVisable) {
-            diagramVisable = true;
             showDiagram(true);
-            Debug.Log("Visible -> True");
+            Debug.Log("Visible -> True ");
         }
-        if(diagramButton) {
-            diagramVisable = false;
+        if(diagramVisable) {
             showDiagram(false);
-            Debug.Log("Visible -> False");
+            Debug.Log("Visible -> False ");
         }
+        diagramVisable = !diagramVisable;
     }
 
     public void showDiagram(bool state) {
