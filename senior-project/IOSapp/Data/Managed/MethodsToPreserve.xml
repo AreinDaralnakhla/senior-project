@@ -3,5 +3,8 @@
 		<type fullname="DropdownController">
 			<method name="OnDropdownValueChanged"/>
 		</type>
+		<type fullname="labelButtonController">
+			<method name="ToggleMaterials"/>
+		</type>
 	</assembly>
 </linker>
