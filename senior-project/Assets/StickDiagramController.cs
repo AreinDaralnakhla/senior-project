@@ -26,10 +26,12 @@ public class StickDiagramController : MonoBehaviour
         if(!diagramVisable) {
             showDiagram(true);
             Debug.Log("Visible -> True ");
+            diagramButton.GetComponentInChildren<TMP_Text>().text = "Hide Diagram";
         }
         if(diagramVisable) {
             showDiagram(false);
             Debug.Log("Visible -> False ");
+            diagramButton.GetComponentInChildren<TMP_Text>().text = "Show Diagram";
         }
         diagramVisable = !diagramVisable;
     }
